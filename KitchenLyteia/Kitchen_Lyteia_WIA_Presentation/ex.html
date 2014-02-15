@@ -1,0 +1,107 @@
+<!-- Lyteia Kitchen -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>EXAMPLE</title>
+        
+        <!-- CSS -->
+        <link href="css/lightbox.css" rel="stylesheet" />
+        <link href="css/adipoli.css" rel="stylesheet" />
+        <style>           
+            #Img_gal{
+              text-align: center;
+            }            
+        </style>
+        
+        <!-- JS -->
+        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="js/jquery.adipoli.min.js"></script>
+        <script src="js/lightbox-2.6.min.js"></script>
+    </head>
+    <body>
+    <div id="Img_gal">
+        <h2>Effects</h2>
+        
+	        <a href="images/aj2_aj10.jpg" data-lightbox="group1" title="Small Collection">
+	            <img src="images/10sthumb.jpg" alt="Image 1" id="aj10" />
+	        </a>
+	        
+	        <a href="images/aj_concord11.jpg" data-lightbox="group1" title="Air Jordan 2011 Concord 11">
+	            <img src="images/11thumb.jpg" alt="Image 2" id="concord11" />
+	        </a>
+	        
+	        <a href="images/aj11_concordback.jpg" data-lightbox="group1" title="Air Jordan 2012 Military Blue 4">
+	            <img src="images/aj11thumb.jpg" alt="Image 3" id="back_11" />
+	        </a>
+	        
+	         <a href="images/aj11_iceysoles.jpg" data-lightbox="group1" title="Air Jordan 2012 Military Blue 4">
+	            <img src="images/aj11bottomthumb.jpg" alt="Image 4" id="11bottoms" />
+	        </a>
+	        
+	        
+	        <a href="images/militaryblue.jpg" data-lightbox="group1" title="Air Jordan 2012 Military Blue 4">
+	            <img src="images/mbthumb.jpg" alt="Image 5" id="military_blue" />
+	        </a>
+	       
+	        <a href="images/aj5_upside.jpg" data-lightbox="group1" title="Air Jordan 2009 3M Raging Bull 5">
+	            <img src="images/aj5thumb.jpg" alt="Image 6" id="aj5" />
+	        </a>
+	        
+	         <a href="images/aj4.jpg" data-lightbox="group1" title="Air Jordan Summer 2012 Most Released 4's">
+	            <img src="images/aj4thumb.jpg" alt="Image 7" id="aj4" />
+	        </a>
+	        
+	         <a href="images/aj5_back.jpg" data-lightbox="group1" title="Air Jordan 2012 Military Blue 4">
+	            <img src="images/aj5backthumb.jpg" alt="Image 8" id="aj5_back" />
+	        </a>
+        
+         
+ </div>
+        
+        <!-- JS Code -->
+        <script>
+            $("#aj10").adipoli({
+                'startEffect':'overlay', 
+                'hoverEffect':'sliceDown',
+                'boxCols': 5   
+            });
+            $("#concord11").adipoli({
+                'startEffect':'transparent',
+                'hoverEffect':'popout'
+            });
+            $("#back_11").adipoli({
+	            'startEffect':'overlay',
+	            'hoverEffect':'sliceUpLeft',
+	            'fillColor': 'rgba(255,0,0,0.3)',
+	            'imageOpacity': .5,
+	            'overlayText': "Gamma 11 vs Gamma 12",
+	            'textColor': 'black'
+	            
+            });
+            $("#11bottoms").adipoli({
+            	'hoverEffect': 'popout'
+             });
+
+            $("#military_blue").adipoli({
+                'startEffect':'overlay',
+                'hoverEffect':'foldLeft'
+             });
+             $("#aj5").adipoli({
+                'startEffect':'overlay',
+                'hoverEffect':'foldLeft'
+             });
+             $("#aj4").adipoli({
+                'startEffect':'transparent',
+                'hoverEffect':'boxRandom'
+             });
+             $("#aj5_back").adipoli({
+	              'startEffect':'overlay',
+	              'hoverEffect':'sliceDownLeft',
+	              'slices': 15
+             });
+              
+          
+        </script>
+    </body>
+</html>
