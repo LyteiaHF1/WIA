@@ -1,0 +1,221 @@
+/*--- Basic ---*/
+
+html{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+}
+
+body{
+	background-color:white;
+}
+
+/*--- Header and Nav ---*/
+
+header{
+    background-color: grey;
+    height: 70px;
+}
+
+
+nav{
+    float: right;
+    width: 60%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #696969 ;
+}
+nav a:hover{
+	color: #F0EAD6;
+}
+
+nav ul{
+    font-family: sans-serif;
+    list-style-type: none;
+    color: #696969 
+}
+
+nav ul li{
+    float: left;
+    margin: 2% 0 0 5%;
+    font-size: 14pt;
+}
+
+#Canvas1{
+    float: left;
+}
+
+/*--- Basic Styles ---*/
+h1{
+	margin-left: 10px;
+    color: #E5E51E;
+    font-size: 	20pt;	
+}
+
+h2{
+    margin-left: 10px; 
+    font-size: 19pt;
+    color: #E5E51E;
+}
+
+h3{
+    font-size: 15pt;
+     
+}
+
+p{
+    color: #a5a5a5;
+}
+
+
+/*--- Slider ---*/
+.coin-slider {
+    overflow: hidden;
+    zoom: 0;
+    position: relative;
+}
+.coin-slider a{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.cs-buttons{
+    padding: 10px;
+    float: left;
+}
+.cs-buttons a{
+    margin-left: 5px;
+    height: 10px;
+    width: 10px;
+    float: left;
+    border: 1px solid #B8C4CF;
+    color: #B8C4CF;
+    text-indent: -1000px;
+}
+.cs-active{
+    background-color: #B8C4CF;
+    color: #FFFFFF;
+}
+.cs-title{
+    width: 98%;
+    padding: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.cs-prev,
+.cs-next{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0px 10px;
+}
+
+#coin-slider{
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*----About Us Section ----*/
+#about-us{
+    margin-top: 10px;
+}
+
+#about-us h2{
+    margin-left: 10px;
+}
+
+#about-us p{
+    margin-left: 10px;
+    line-height: 2;
+}
+
+
+#Canvas2{
+    float: right;
+    margin: 15px;
+}
+
+.canvas2 {
+	color: #ACCBE8;
+	float: right;
+	clear:both;
+	width:200px;
+	padding:0;
+	margin: 0;
+	text-align: center
+}
+
+
+/*--- Gallery & Video ---*/
+
+#gallery h2{
+   margin-left: 10px; 
+}
+
+
+#pictures{
+    margin-left: 10px;
+    
+}
+
+#pictures a{
+    text-decoration: none;
+}
+
+#video h2{
+   margin-left: 10px;
+    
+}
+
+video{
+   margin-left: 10px;
+  
+}
+
+
+.yellow{
+	color:#E5E51E;
+}
+
+.blue{
+	color: #ACCBE8;
+}
+
+.tan{
+	color: #F0EAD6;
+}
+
+
+#hide_showVideo{
+    float: right;
+    clear: both;
+    background: #ACCBE8;
+    border: none;
+    width: 20%;
+    
+}
+
+#hide_dataCharts {
+    float: right;
+    clear: both;
+    background: #ACCBE8;
+    border: none;
+    width: 20%;
+    
+}
+
+button{
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);	
+}
+
+
